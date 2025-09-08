@@ -26,7 +26,11 @@ int main()
     {
         for (uint8_t j = 0; j < (sizeof(arr) / sizeof(int)) / 2; j++)
         {
-            printf("Value at the index of arr[%u][%u] is %d \r\n", i, j, *(*arr + (i + j)));
+            printf("Value at the index of arr[%u][%u] is %d \r\n", i, j, *(*arr + (i + j)));  //Use double ** to dereference a 2D array
+
+            /* Note: The line below is printing address instead of number stored in array, as it is dereferencing a 1d array,
+                     To dereference a 2d array you will have to use double dereference, as shown above*/
+            printf("Value at the index of arr[%u][%u] is %d \r\n", i, j, *(arr + (i + j)));
         }
     }
 }
