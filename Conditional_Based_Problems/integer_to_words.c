@@ -1,5 +1,5 @@
 /*Probelm: Take user input which will be a number, you need to print the number in english word.
-           Like if the user enetrs 1, then we need to print one */
+           Like if the user enetrs 1327, then we need to print one thousand three hundred twenty seven */
 
 /*Hint: You can define basic building block number, and can add the string*/
 
